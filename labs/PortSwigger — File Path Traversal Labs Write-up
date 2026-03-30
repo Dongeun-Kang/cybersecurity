@@ -102,3 +102,7 @@ The null byte terminates the file path string, causing the server to ignore the 
 * Filtering mechanisms can often be bypassed using encoding or alternate path formats.
 * Absolute paths and null byte characters can be used to bypass file restrictions.
 * Proper normalization and validation of file paths are essential to prevent exploitation.
+
+## Related Concept
+
+- [Path Traversal Concept](../concepts/path-traversal.md)
