@@ -73,7 +73,7 @@ The application blocks traversal sequences but fails to handle double URL encodi
 ### Exploit Method
 
 ```text
-%252e%252e%252f%252e%252e%252fetc/passwd
+..%252f..%252f..%252fetc/passwd
 ```
 
 The payload uses double encoding so that decoding occurs after filtering, restoring the traversal sequences.
