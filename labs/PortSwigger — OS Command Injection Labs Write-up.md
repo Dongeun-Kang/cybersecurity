@@ -63,4 +63,4 @@ The payload redirects the output of the `whoami` command to a file located in a 
 
 ## Related Concept
 
-- [Command Injection Concept](../concepts/command-injection)
+- [Command Injection Concept](../concepts/command-injection.md)
